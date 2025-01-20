@@ -27,7 +27,7 @@ const CONFIG = {
     commands: {
         ping: {
             response: 'Pong, but with style!',
-            cooldown: 3000, // 3-second cooldown for absolutely no fucking reason
+            cooldown: 3000, // 3-second cooldown for absolutely no reason
             permissions: [PermissionsBitField.Flags.SendMessages] // As if this isn’t default
         },
         uptime: {
